@@ -1,0 +1,133 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "A professional website for a data analyst, showcasing services offered as a full-service data analyst.",
+  "architectural_notes": [
+    "Single-page or multi-section website (HTML/CSS/JS or framework) targeting professional data analyst personal branding"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional abstract data visualization banner with glowing teal grid lines and floating data points on a dark navy background (hero-banner.dim_1440x600.png)\n- Clean geometric data analyst profile avatar illustration with teal accents on dark background (analyst-avatar.dim_400x400.png)\n- Abstract chart and graph collage thumbnail for portfolio project card 1 (project-thumb-1.dim_600x400.png)\n- Abstract map and geospatial data visualization thumbnail for portfolio project card 2 (project-thumb-2.dim_600x400.png)\n- Abstract bar chart and KPI dashboard thumbnail for portfolio project card 3 (project-thumb-3.dim_600x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-landing-section-with-a-compelling-headline-tagline-and-a-brief-introduction-positioning-the-owner-as-a-professional-data-analyst-include-a-clear-call-to-action-button-e-g-hire-me-or-view-my-work-that-scrolls-to-the-services-or-contact-section",
+      "title": "Create a Hero/Landing section with a compelling headline, tagline, and a brief introduction positioning the owner as a professional data analyst. Include a clear call-to-action button (e.g., 'Hire Me' or 'View My Work') that scrolls to the services or contact section.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-section-listing-all-full-data-analyst-services-offered-including-data-cleaning-preparation-data-visualization-statistical-analysis-business-reporting-dashboards-data-consulting-predictive-modeling-and-database-management-each-service-should-have-an-icon-title-and-short-description",
+      "title": "Create a Services section listing all full data analyst services offered, including: Data Cleaning & Preparation, Data Visualization, Statistical Analysis, Business Reporting & Dashboards, Data Consulting, Predictive Modeling, and Database Management. Each service should have an icon, title, and short description.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-me-section-featuring-a-professional-bio-a-list-of-key-skills-e-g-python-sql-excel-tableau-power-bi-r-and-a-tools-technologies-used-showcase-with-recognizable-icons-or-badges",
+      "title": "Create an About Me section featuring a professional bio, a list of key skills (e.g., Python, SQL, Excel, Tableau, Power BI, R), and a tools/technologies used showcase with recognizable icons or badges.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-portfolio-projects-section-showcasing-sample-or-placeholder-past-data-analysis-projects-each-project-card-should-include-a-project-title-short-description-tools-used-and-a-placeholder-image-or-chart-graphic",
+      "title": "Create a Portfolio/Projects section showcasing sample or placeholder past data analysis projects. Each project card should include a project title, short description, tools used, and a placeholder image or chart graphic.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-pricing-packages-section-displaying-at-least-three-service-tiers-e-g-basic-standard-premium-with-feature-lists-and-a-highlighted-recommended-plan-each-tier-should-have-a-price-placeholder-and-a-get-started-cta",
+      "title": "Create a Pricing/Packages section displaying at least three service tiers (e.g., Basic, Standard, Premium) with feature lists and a highlighted recommended plan. Each tier should have a price placeholder and a 'Get Started' CTA.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-testimonials-section-displaying-at-least-three-placeholder-client-reviews-with-a-quote-client-name-and-company-role-use-a-card-or-carousel-layout",
+      "title": "Create a Testimonials section displaying at least three placeholder client reviews with a quote, client name, and company/role. Use a card or carousel layout.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-form-containing-fields-for-name-email-subject-and-message-include-a-submit-button-store-submitted-contact-messages-in-the-backend-so-they-can-be-retrieved-later",
+      "title": "Create a Contact section with a form containing fields for: Name, Email, Subject, and Message. Include a Submit button. Store submitted contact messages in the backend so they can be retrieved later.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-sticky-top-navigation-bar-with-links-to-all-major-sections-home-about-services-portfolio-pricing-testimonials-contact-that-use-smooth-scrolling-include-a-logo-name-on-the-left-and-a-mobile-hamburger-menu-for-smaller-screens",
+      "title": "Add a sticky top navigation bar with links to all major sections (Home, About, Services, Portfolio, Pricing, Testimonials, Contact) that use smooth scrolling. Include a logo/name on the left and a mobile hamburger menu for smaller screens.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-dark-data-tech-inspired-visual-theme-with-a-deep-charcoal-dark-navy-background-bright-teal-or-green-accent-colors-clean-sans-serif-typography-and-subtle-data-grid-or-geometric-patterns-use-consistent-spacing-card-shadows-and-micro-animations-e-g-fade-in-on-scroll-throughout-the-page",
+      "title": "Apply a dark, data-tech-inspired visual theme with a deep charcoal/dark navy background, bright teal or green accent colors, clean sans-serif typography, and subtle data-grid or geometric patterns. Use consistent spacing, card shadows, and micro-animations (e.g., fade-in on scroll) throughout the page.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero/landing section with data analyst branding and tagline",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Services section listing full data analyst services (data cleaning, visualization, analysis, reporting, consulting, etc.)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "About Me section with bio, skills, and tools/technologies used",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Portfolio/Projects section showcasing past data analysis work",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact form or section for client inquiries",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Testimonials or client reviews section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Pricing or packages section for data analyst services",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Data Analyst Portfolio Website",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

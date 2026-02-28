@@ -1,0 +1,193 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-create-a-hero-landing-section-with-a-compelling-headline-tagline-and-a-brief-introduction-positioning-the-owner-as-a-professional-data-analyst-include-a-clear-call-to-action-button-e-g-hire-me-or-view-my-work-that-scrolls-to-the-services-or-contact-section",
+      "featureTitle": "Create a Hero/Landing section with a compelling headline, tagline, and a brief introduction positioning the owner as a professional data analyst. Include a clear call-to-action button (e.g., 'Hire Me' or 'View My Work') that scrolls to the services or contact section.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-services-section-listing-all-full-data-analyst-services-offered-including-data-cleaning-preparation-data-visualization-statistical-analysis-business-reporting-dashboards-data-consulting-predictive-modeling-and-database-management-each-service-should-have-an-icon-title-and-short-description",
+      "featureTitle": "Create a Services section listing all full data analyst services offered, including: Data Cleaning & Preparation, Data Visualization, Statistical Analysis, Business Reporting & Dashboards, Data Consulting, Predictive Modeling, and Database Management. Each service should have an icon, title, and short description.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-an-about-me-section-featuring-a-professional-bio-a-list-of-key-skills-e-g-python-sql-excel-tableau-power-bi-r-and-a-tools-technologies-used-showcase-with-recognizable-icons-or-badges",
+      "featureTitle": "Create an About Me section featuring a professional bio, a list of key skills (e.g., Python, SQL, Excel, Tableau, Power BI, R), and a tools/technologies used showcase with recognizable icons or badges.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-portfolio-projects-section-showcasing-sample-or-placeholder-past-data-analysis-projects-each-project-card-should-include-a-project-title-short-description-tools-used-and-a-placeholder-image-or-chart-graphic",
+      "featureTitle": "Create a Portfolio/Projects section showcasing sample or placeholder past data analysis projects. Each project card should include a project title, short description, tools used, and a placeholder image or chart graphic.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Portfolio.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-pricing-packages-section-displaying-at-least-three-service-tiers-e-g-basic-standard-premium-with-feature-lists-and-a-highlighted-recommended-plan-each-tier-should-have-a-price-placeholder-and-a-get-started-cta",
+      "featureTitle": "Create a Pricing/Packages section displaying at least three service tiers (e.g., Basic, Standard, Premium) with feature lists and a highlighted recommended plan. Each tier should have a price placeholder and a 'Get Started' CTA.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Pricing.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-testimonials-section-displaying-at-least-three-placeholder-client-reviews-with-a-quote-client-name-and-company-role-use-a-card-or-carousel-layout",
+      "featureTitle": "Create a Testimonials section displaying at least three placeholder client reviews with a quote, client name, and company/role. Use a card or carousel layout.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Testimonials.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-contact-section-with-a-form-containing-fields-for-name-email-subject-and-message-include-a-submit-button-store-submitted-contact-messages-in-the-backend-so-they-can-be-retrieved-later",
+      "featureTitle": "Create a Contact section with a form containing fields for: Name, Email, Subject, and Message. Include a Submit button. Store submitted contact messages in the backend so they can be retrieved later.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Contact.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-sticky-top-navigation-bar-with-links-to-all-major-sections-home-about-services-portfolio-pricing-testimonials-contact-that-use-smooth-scrolling-include-a-logo-name-on-the-left-and-a-mobile-hamburger-menu-for-smaller-screens",
+      "featureTitle": "Add a sticky top navigation bar with links to all major sections (Home, About, Services, Portfolio, Pricing, Testimonials, Contact) that use smooth scrolling. Include a logo/name on the left and a mobile hamburger menu for smaller screens.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-dark-data-tech-inspired-visual-theme-with-a-deep-charcoal-dark-navy-background-bright-teal-or-green-accent-colors-clean-sans-serif-typography-and-subtle-data-grid-or-geometric-patterns-use-consistent-spacing-card-shadows-and-micro-animations-e-g-fade-in-on-scroll-throughout-the-page",
+      "featureTitle": "Apply a dark, data-tech-inspired visual theme with a deep charcoal/dark navy background, bright teal or green accent colors, clean sans-serif typography, and subtle data-grid or geometric patterns. Use consistent spacing, card shadows, and micro-animations (e.g., fade-in on scroll) throughout the page.",
+      "files": [
+        "frontend/src/components/About.tsx",
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/Navbar.tsx",
+        "frontend/src/components/Portfolio.tsx",
+        "frontend/src/components/Pricing.tsx",
+        "frontend/src/components/Services.tsx",
+        "frontend/src/components/Testimonials.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

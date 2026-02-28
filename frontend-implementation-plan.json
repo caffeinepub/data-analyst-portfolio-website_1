@@ -1,0 +1,239 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Professional Data Analyst Portfolio & Services Website - Frontend Implementation",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create Hero/Landing section with headline, tagline, introduction, and call-to-action button",
+      "acceptanceCriteria": [
+        "Hero section is the first visible section on the page",
+        "Headline and tagline clearly communicate data analyst identity",
+        "At least one call-to-action button is visible and functional (smooth scrolls to target section)"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero component with headline, tagline, professional introduction, and CTA button that smoothly scrolls to services or contact section. Include the generated hero banner image frontend/public/assets/generated/hero-banner.dim_1440x600.png as the background or visual element."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Hero component as the first section in the main app layout."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Create Services section listing all full data analyst services with icons, titles, and descriptions",
+      "acceptanceCriteria": [
+        "At least 6 services are displayed in a card/grid layout",
+        "Each service card has an icon, title, and description",
+        "Section is labeled 'Services' and is accessible via navigation"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "create",
+          "description": "Create Services component displaying at least 6 data analyst service cards in a grid layout. Each card includes an icon, title, and short description. Services include: Data Cleaning & Preparation, Data Visualization, Statistical Analysis, Business Reporting & Dashboards, Data Consulting, Predictive Modeling, and Database Management. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Services component after the Hero section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create About Me section with bio, skills list, and tools/technologies showcase",
+      "acceptanceCriteria": [
+        "About section includes bio text, skills list, and tools showcase",
+        "Skills are displayed as badges or tags",
+        "Section is accessible via navigation"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "create",
+          "description": "Create About component featuring a professional bio, a list of key skills (e.g., Python, SQL, Excel, Tableau, Power BI, R) displayed as badges or tags, and a tools/technologies showcase with icons or badges. Include the generated avatar image frontend/public/assets/generated/analyst-avatar.dim_400x400.png as the profile image. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the About component after the Services section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Create Portfolio/Projects section showcasing sample past data analysis projects with cards",
+      "acceptanceCriteria": [
+        "At least 3 project cards are displayed in a grid layout",
+        "Each card has a title, description, and tools used tags",
+        "Section is accessible via navigation"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Portfolio.tsx",
+          "operation": "create",
+          "description": "Create Portfolio component displaying at least 3 project cards in a grid layout. Each card includes a project title, short description, tools used tags, and a placeholder image. Use generated images: frontend/public/assets/generated/project-thumb-1.dim_600x400.png, frontend/public/assets/generated/project-thumb-2.dim_600x400.png, and frontend/public/assets/generated/project-thumb-3.dim_600x400.png for the three project cards. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Portfolio component after the About section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Create Pricing/Packages section displaying three service tiers with features and CTAs",
+      "acceptanceCriteria": [
+        "Three pricing tiers are displayed side by side",
+        "Each tier has a name, price placeholder, feature list, and CTA button",
+        "One tier is visually highlighted as recommended"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Pricing.tsx",
+          "operation": "create",
+          "description": "Create Pricing component displaying three service tiers (e.g., Basic, Standard, Premium) side by side. Each tier includes a name, price placeholder, feature list, and 'Get Started' CTA button. Visually highlight one tier as recommended. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Pricing component after the Portfolio section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Create Testimonials section displaying client reviews in a card or carousel layout",
+      "acceptanceCriteria": [
+        "At least 3 testimonials are displayed",
+        "Each testimonial includes a quote, name, and role/company",
+        "Section is visually distinct from adjacent sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "create",
+          "description": "Create Testimonials component displaying at least 3 placeholder client reviews in a card or carousel layout. Each testimonial includes a quote, client name, and company/role. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Testimonials component after the Pricing section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Create Contact section with form to submit messages to backend storage",
+      "acceptanceCriteria": [
+        "Contact form is rendered with all four fields and a submit button",
+        "Form submission sends data to the backend and stores the message",
+        "User sees a success confirmation after submitting",
+        "Form validates that required fields are not empty before submission"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "create",
+          "description": "Create Contact component with a form containing fields for Name, Email, Subject, and Message, plus a Submit button. Validate that required fields are not empty before submission. On submit, call the backend submitContactMessage method from backend.d.ts. Display a success confirmation message after successful submission. Add an id attribute for smooth scrolling navigation."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Contact component after the Testimonials section."
+        }
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "summary": "Add sticky top navigation bar with smooth scrolling links and mobile hamburger menu",
+      "acceptanceCriteria": [
+        "Navigation is sticky at the top of the page",
+        "All section links scroll smoothly to their targets",
+        "Navigation collapses to a hamburger menu on mobile viewports",
+        "Logo or name is visible on the left side"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "create",
+          "description": "Create Navbar component with a sticky top position, logo/name on the left, and navigation links to all major sections (Home, About, Services, Portfolio, Pricing, Testimonials, Contact) that use smooth scrolling. Implement a mobile-responsive hamburger menu that collapses navigation links on smaller screens."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Navbar component at the top of the app layout, before all other sections."
+        }
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "summary": "Apply dark, data-tech-inspired visual theme with consistent styling and animations",
+      "acceptanceCriteria": [
+        "A consistent dark color palette is applied site-wide",
+        "Accent colors are used for buttons, highlights, and section titles",
+        "Typography is clean and readable across all sections",
+        "At least subtle animations or transitions are present"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update global styles to apply a dark, data-tech-inspired theme with deep charcoal/dark navy background, bright teal or green accent colors, clean sans-serif typography, and consistent spacing. Add subtle data-grid or geometric background patterns if applicable."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind theme to include custom dark color palette (e.g., charcoal, dark navy, teal, green accents) and configure consistent spacing, shadows, and animation utilities. Ensure accent colors are used for buttons, highlights, and section titles."
+        },
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "modify",
+          "description": "Apply fade-in or other subtle micro-animations on component mount to enhance visual polish."
+        },
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "modify",
+          "description": "Apply subtle hover animations and card shadows consistent with the dark theme."
+        },
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "modify",
+          "description": "Apply subtle animations (e.g., fade-in on scroll) and ensure skills badges use accent colors."
+        },
+        {
+          "path": "frontend/src/components/Portfolio.tsx",
+          "operation": "modify",
+          "description": "Apply hover effects and shadows on project cards consistent with the dark theme."
+        },
+        {
+          "path": "frontend/src/components/Pricing.tsx",
+          "operation": "modify",
+          "description": "Apply visual highlighting (e.g., border glow or scale) to the recommended pricing tier and ensure CTAs use accent colors."
+        },
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "modify",
+          "description": "Apply subtle transitions if using a carousel layout and ensure testimonial cards have consistent shadows and spacing."
+        },
+        {
+          "path": "frontend/src/components/Contact.tsx",
+          "operation": "modify",
+          "description": "Apply form input styling consistent with the dark theme, including focus states using accent colors, and ensure submit button uses the accent color."
+        },
+        {
+          "path": "frontend/src/components/Navbar.tsx",
+          "operation": "modify",
+          "description": "Apply dark background with subtle transparency or blur effect, and ensure navigation links and hamburger icon use accent colors on hover/active states."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "frontend/src/index.css": "Global styles with a dark navy/teal data-tech theme using OKLCH color tokens, Space Grotesk/Inter/JetBrains Mono fonts, grid background patterns, glow effects, shimmer text animation, card hover transitions, and fade-in keyframe animations.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom font families (Space Grotesk, Inter, JetBrains Mono), teal/navy/green-accent color tokens, custom box shadows, and animation keyframes for the dark data-tech theme.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting contact messages to the backend via the actor's submitContactMessage method, with query invalidation on success.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with logo, smooth-scroll section links, a \"Hire Me\" CTA button, scroll-aware background blur, and a mobile hamburger menu.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with hero banner background image, animated headline with shimmer gradient text, tagline, stats row, and dual CTA buttons for Services and Portfolio.",
+  "frontend/src/components/About.tsx": "About section with profile avatar image, professional bio, skill badges, and a tools/technologies grid — replaces the unavailable `SiMicrosoftexcel` with Lucide's `Table2` icon for Excel while keeping all other SI brand icons.",
+  "frontend/src/components/Services.tsx": "Services section displaying 8 data analyst service cards in a responsive grid, each with a Lucide icon, title, description, and tech tags with hover animations.",
+  "frontend/src/components/Portfolio.tsx": "Portfolio section with 3 project cards using generated thumbnail images, each showing title, description, impact badge, tool badges, and case study/source links.",
+  "frontend/src/components/Pricing.tsx": "Three-tier pricing section (Basic/Standard/Premium) with feature lists, a highlighted \"Most Popular\" Standard plan with glow effect, and CTA buttons scrolling to contact.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section using a shadcn Carousel to display 5 client review cards with star ratings, quotes, and author info.",
+  "frontend/src/components/Contact.tsx": "Contact section with a validated 4-field form (Name, Email, Subject, Message) that submits to the backend via useSubmitContactMessage, with inline error display and a success confirmation state.",
+  "frontend/src/components/Footer.tsx": "Footer with brand logo, bio blurb, social links, quick nav links, services list, copyright, and caffeine.ai attribution with UTM tracking.",
+  "frontend/src/App.tsx": "Root app component that composes all page sections (Navbar, Hero, About, Services, Portfolio, Pricing, Testimonials, Contact, Footer) in a single-page layout."
+}

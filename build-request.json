@@ -1,0 +1,174 @@
+{
+  "kind": "build_request",
+  "title": "Professional Data Analyst Portfolio & Services Website",
+  "projectName": "DataPro Analyst",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a Hero/Landing section with a compelling headline, tagline, and a brief introduction positioning the owner as a professional data analyst. Include a clear call-to-action button (e.g., 'Hire Me' or 'View My Work') that scrolls to the services or contact section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "create a website for me as data analyst and setup full serviced provided as data analyst"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section is the first visible section on the page",
+        "Headline and tagline clearly communicate data analyst identity",
+        "At least one call-to-action button is visible and functional (smooth scrolls to target section)"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a Services section listing all full data analyst services offered, including: Data Cleaning & Preparation, Data Visualization, Statistical Analysis, Business Reporting & Dashboards, Data Consulting, Predictive Modeling, and Database Management. Each service should have an icon, title, and short description.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "setup full serviced provided as data analyst"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 6 services are displayed in a card/grid layout",
+        "Each service card has an icon, title, and description",
+        "Section is labeled 'Services' and is accessible via navigation"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create an About Me section featuring a professional bio, a list of key skills (e.g., Python, SQL, Excel, Tableau, Power BI, R), and a tools/technologies used showcase with recognizable icons or badges.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section includes bio text, skills list, and tools showcase",
+        "Skills are displayed as badges or tags",
+        "Section is accessible via navigation"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Create a Portfolio/Projects section showcasing sample or placeholder past data analysis projects. Each project card should include a project title, short description, tools used, and a placeholder image or chart graphic.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 3 project cards are displayed in a grid layout",
+        "Each card has a title, description, and tools used tags",
+        "Section is accessible via navigation"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Create a Pricing/Packages section displaying at least three service tiers (e.g., Basic, Standard, Premium) with feature lists and a highlighted recommended plan. Each tier should have a price placeholder and a 'Get Started' CTA.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Three pricing tiers are displayed side by side",
+        "Each tier has a name, price placeholder, feature list, and CTA button",
+        "One tier is visually highlighted as recommended"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Create a Testimonials section displaying at least three placeholder client reviews with a quote, client name, and company/role. Use a card or carousel layout.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "At least 3 testimonials are displayed",
+        "Each testimonial includes a quote, name, and role/company",
+        "Section is visually distinct from adjacent sections"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Create a Contact section with a form containing fields for: Name, Email, Subject, and Message. Include a Submit button. Store submitted contact messages in the backend so they can be retrieved later.",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form is rendered with all four fields and a submit button",
+        "Form submission sends data to the backend and stores the message",
+        "User sees a success confirmation after submitting",
+        "Form validates that required fields are not empty before submission"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Add a sticky top navigation bar with links to all major sections (Home, About, Services, Portfolio, Pricing, Testimonials, Contact) that use smooth scrolling. Include a logo/name on the left and a mobile hamburger menu for smaller screens.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navigation is sticky at the top of the page",
+        "All section links scroll smoothly to their targets",
+        "Navigation collapses to a hamburger menu on mobile viewports",
+        "Logo or name is visible on the left side"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Apply a dark, data-tech-inspired visual theme with a deep charcoal/dark navy background, bright teal or green accent colors, clean sans-serif typography, and subtle data-grid or geometric patterns. Use consistent spacing, card shadows, and micro-animations (e.g., fade-in on scroll) throughout the page.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A consistent dark color palette is applied site-wide",
+        "Accent colors are used for buttons, highlights, and section titles",
+        "Typography is clean and readable across all sections",
+        "At least subtle animations or transitions are present"
+      ]
+    }
+  ],
+  "constraints": [
+    "All contact form submissions must be stored in the Motoko backend actor",
+    "No external databases or third-party email services should be used",
+    "Do not modify any files listed in frontend.immutablePaths"
+  ],
+  "nonGoals": [
+    "User authentication or login functionality",
+    "Real-time chat or messaging features",
+    "Payment processing or actual billing integration",
+    "CMS or admin dashboard for editing content dynamically",
+    "Multi-language support"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional abstract data visualization banner with glowing teal grid lines and floating data points on a dark navy background (hero-banner.dim_1440x600.png)",
+      "Clean geometric data analyst profile avatar illustration with teal accents on dark background (analyst-avatar.dim_400x400.png)",
+      "Abstract chart and graph collage thumbnail for portfolio project card 1 (project-thumb-1.dim_600x400.png)",
+      "Abstract map and geospatial data visualization thumbnail for portfolio project card 2 (project-thumb-2.dim_600x400.png)",
+      "Abstract bar chart and KPI dashboard thumbnail for portfolio project card 3 (project-thumb-3.dim_600x400.png)"
+    ],
+    "edits": []
+  }
+}
